@@ -1,0 +1,212 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #ddd;
+    color: #fff;
+}
+
+
+/* Estilo aesthetic para la sección de descripción */
+.descripcion {
+    background-color: #DDD0C8; /* Color lavanda */
+    color: #080808;
+    text-align: center;
+    padding: 40px 20px;
+    font-size: 1.2em;
+    font-style: italic;
+    margin-top: 10px;
+    border-top: 2px solid #ddd;
+    border-bottom: 2px solid #ddd;
+}
+
+.descripcion p {
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.8;
+}
+
+
+
+
+h1 {
+    font-size: 2em;
+}
+
+.productos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+}
+
+.producto {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+}
+
+.producto:hover {
+    transform: scale(1.05);
+}
+
+.producto img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.producto h2 {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.producto p {
+    font-size: 1em;
+    margin: 5px 0;
+}
+
+.precio {
+    font-size: 1.2em;
+    color: #007BFF;
+    font-weight: bold;
+}
+
+
+/* Estilo para la sección del gerente */
+.gerente {
+    background-color: #fafafa;
+    color: #333;
+    padding: 30px 20px;
+    margin: 20px auto;
+    text-align: center;
+    max-width: 600px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.gerente h2 {
+    font-size: 1.8em;
+    color: #007BFF;
+    margin-bottom: 15px;
+}
+
+.gerente img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #007BFF;
+    margin-bottom: 15px;
+}
+
+.gerente p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #555;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+
+
+             /* Estilo para la sección de horario */
+            .horario {
+                background-color: #f9f9f9;
+                color: #333;
+                padding: 30px 20px;
+                margin: 20px auto;
+                text-align: center;
+                max-width: 600px;
+                border: 1px solid #ddd;
+                border-radius: 8px;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            }
+    
+            .horario h2 {
+                font-size: 1.8em;
+                margin-bottom: 15px;
+                color: #007BFF;
+            }
+    
+            .horario-table {
+                width: 100%;
+                border-collapse: collapse;
+                font-size: 1.1em;
+                margin: 0 auto;
+            }
+    
+            .horario-table th, .horario-table td {
+                padding: 10px;
+                border: 1px solid #ddd;
+                text-align: center;
+            }
+    
+            .horario-table th {
+                background-color: #007BFF;
+                color: white;
+                font-weight: bold;
+            }
+    
+.horario-table td {
+    background-color: #f4f4f4;
+}
+
+/* Pie de página */
+footer {
+    background-color: #000;
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: auto;
+    gap: 20px;
+}
+
+.footer-logo img {
+    max-width: 100px;
+}
+
+.footer-contact,
+.footer-info {
+    min-width: 200px;
+}
+
+.footer-contact h4,
+.footer-info h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.footer-contact p,
+.footer-info p {
+    font-size: 14px;
+    margin: 5px 0;
+    color: #bbb;
+}
+
