@@ -18,7 +18,6 @@ header {
 }
 
 
-/* Estilo para la sección de descripción */
 .descripcion {
     background-color: #DDD0C8;
     color: #080808;
@@ -90,7 +89,6 @@ h1 {
 }
 
 
-/* Estilo para la sección del gerente */
 .gerente {
     background-color: #fafafa;
     color: #333;
@@ -126,45 +124,42 @@ h1 {
     margin: 0 auto;
 }
 
+.horario {
+    background-color: #f9f9f9;
+    color: #333;
+    padding: 30px 20px;
+    margin: 20px auto;
+    text-align: center;
+    max-width: 600px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+    
+.horario h2 {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+    color: #007BFF;
+}
 
-
-             /* Estilo para la sección de horario */
-            .horario {
-                background-color: #f9f9f9;
-                color: #333;
-                padding: 30px 20px;
-                margin: 20px auto;
-                text-align: center;
-                max-width: 600px;
-                border: 1px solid #ddd;
-                border-radius: 8px;
-                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            }
+.horario-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 1.1em;
+    margin: 0 auto;
+}
     
-            .horario h2 {
-                font-size: 1.8em;
-                margin-bottom: 15px;
-                color: #007BFF;
-            }
+.horario-table th, .horario-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
     
-            .horario-table {
-                width: 100%;
-                border-collapse: collapse;
-                font-size: 1.1em;
-                margin: 0 auto;
-            }
-    
-            .horario-table th, .horario-table td {
-                padding: 10px;
-                border: 1px solid #ddd;
-                text-align: center;
-            }
-    
-            .horario-table th {
-                background-color: #007BFF;
-                color: white;
-                font-weight: bold;
-            }
+.horario-table th {
+    background-color: #007BFF;
+    color: white;
+    font-weight: bold;
+}
     
 .horario-table td {
     background-color: #f4f4f4;
@@ -208,5 +203,48 @@ footer {
     font-size: 14px;
     margin: 5px 0;
     color: #bbb;
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+footer h2 {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+    color: #007BFF;
+}
+
+.comentarios-form {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.comentarios-form input, .comentarios-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.comentarios-form button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.comentarios-form button:hover {
+     background-color: #0056b3;
 }
 
