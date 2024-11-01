@@ -18,9 +18,9 @@ header {
 }
 
 
-/* Estilo aesthetic para la sección de descripción */
+/* Estilo para la sección de descripción */
 .descripcion {
-    background-color: #DDD0C8; /* Color lavanda */
+    background-color: #DDD0C8;
     color: #080808;
     text-align: center;
     padding: 40px 20px;
