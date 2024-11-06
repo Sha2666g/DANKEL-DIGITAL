@@ -64,6 +64,7 @@ h1 {
 
 .producto:hover {
     transform: scale(1.05);
+    background-color: #DDD0C8;
 }
 
 .producto img {
